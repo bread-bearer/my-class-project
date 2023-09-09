@@ -1,0 +1,77 @@
+/*** GLOBAL STYLES****/
+
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.block {
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.white {
+    background: #fff;
+}
+
+.grey {
+    background: #3b3b3b;
+}
+
+.highlight {
+    background: #fff44f;
+    padding: 2px 15px;
+    font-size: 18px;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: none;
+}
+
+.title {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
+
+.padding {
+    padding-top: 40px;
+}
